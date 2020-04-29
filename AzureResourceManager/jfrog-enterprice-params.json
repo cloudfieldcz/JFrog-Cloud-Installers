@@ -1,0 +1,69 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "cfcsasjfrogcluster"
+        },
+        "vmSku": {
+            "value": "Standard_D4s_v3"
+        },
+        "nodeCount": {
+            "value": 2
+        },
+        "artifactoryVersion": {
+            "value": "7.2.1"
+        },
+        "masterKey": {
+            "value": "670ae9fdab58d9f2d267c5204bb38695"
+        },
+        "artifactoryLicense1": {
+            "value": "GEN-UNIQUE"
+        },
+        "artifactoryLicense2": {
+            "value": "GEN-UNIQUE"
+        },
+        "artifactoryLicense3": {
+            "value": ""
+        },
+        "artifactoryLicense4": {
+            "value": ""
+        },
+        "artifactoryLicense5": {
+            "value": ""
+        },
+        "certificate": {
+            "value": "-----BEGIN CERTIFICATE-----MIID0jCCArqgAwIBAgIJAP83+KdeUvkcMA0GCSqGSIb3DQEBBQUAMH4xCzAJBgNVBAYTAkNaMRMwEQYDVQQIDApTb21lLVN0YXRlMRMwEQYDVQQKDApDbG91ZGZpZWxkMRgwFgYDVQQDDA8qLmNsb3VkZmlsZWQuY3oxKzApBgkqhkiG9w0BCQEWHGRhdmlkLnN2YW1iZXJrQGNsb3VkZmllbGQuY3owHhcNMjAwNDE1MTIxMTEwWhcNMzAwNDEzMTIxMTEwWjB+MQswCQYDVQQGEwJDWjETMBEGA1UECAwKU29tZS1TdGF0ZTETMBEGA1UECgwKQ2xvdWRmaWVsZDEYMBYGA1UEAwwPKi5jbG91ZGZpbGVkLmN6MSswKQYJKoZIhvcNAQkBFhxkYXZpZC5zdmFtYmVya0BjbG91ZGZpZWxkLmN6MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6o9uoFvM+nqZ65SYTRil4hKOz8UKmiK1JswepHGsoOL97UY0MfI/dSq0kdAoU6bIU5HEoN2Wd3jDH5aAeocu1ECFu/BLsQIvBOB4ApNHo7GUBQiHf7U5CeVCe6irLtIu4VMHq87RWMzIkpOc6vho/eRJE47ceADvaHqxY5cU78ozAXjUOGytEY+ejQIxp5Tyiwk6qERCHblP3UDQHuYjHT0gmFvP1M31w7U7Tv6qI2vo+f5UNsy97qfM31NBtWL0pxRAQ0aOct3FOfeKtgbtUPvvBvgfKxNE5s3IBjjNzR2WVxCEhG6C9FjGDJww53qp/tVozS9W0KrwdIztZEgUUQIDAQABo1MwUTAdBgNVHQ4EFgQUKO05oADWfPeYylo1dCMvM8uMG+QwHwYDVR0jBBgwFoAUKO05oADWfPeYylo1dCMvM8uMG+QwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQUFAAOCAQEA1XrY7kKirmuyfjpuk/y5bjOrkUmceE8B3ID7tCtVmDIezzCx9LwwaQ6goRI5xQ6npPVljguHP2GNk7coNUblLEtJXfqsLYqGzRpWxooCxSQ9kUPccAQmItpfxiIK6HtXZ6zZNPgmlJ8lierPolcg8qf2wJG84Rh1shI7/ZgioKXVmeEvrOTE9KR+HhJDXaoQDaBYhprLQhoNWkjTesq0aUvOvPabr3eJVftOEqd6lZdsfTHg6cqBT1RnSsxYmMaufNsHZp07v9xpR6kY3RPhlc67aOPhJhgchYYNWU4NSBBP2TjBpPl6voqRs1UjDyAiryrqzLAlwke/4/1YqAcj/g==-----END CERTIFICATE-----"
+        },
+        "certificateKey": {
+            "value": "-----BEGIN RSA PRIVATE KEY-----MIIEpAIBAAKCAQEA6o9uoFvM+nqZ65SYTRil4hKOz8UKmiK1JswepHGsoOL97UY0MfI/dSq0kdAoU6bIU5HEoN2Wd3jDH5aAeocu1ECFu/BLsQIvBOB4ApNHo7GUBQiHf7U5CeVCe6irLtIu4VMHq87RWMzIkpOc6vho/eRJE47ceADvaHqxY5cU78ozAXjUOGytEY+ejQIxp5Tyiwk6qERCHblP3UDQHuYjHT0gmFvP1M31w7U7Tv6qI2vo+f5UNsy97qfM31NBtWL0pxRAQ0aOct3FOfeKtgbtUPvvBvgfKxNE5s3IBjjNzR2WVxCEhG6C9FjGDJww53qp/tVozS9W0KrwdIztZEgUUQIDAQABAoIBABcU0C0Fe5E2WUkeUTJc943ch6MYX6e1PKA5u9YwvW0DiTs9CkvT67yq3CPxGNbKdbILiQ7PX0wYXRMRq0jjXo9SXhaVWc1sSpYvRH/0YDtScR9hrHu7qIY5wiYK/fVYh3ZyxjF4447ab+5Eik9w7Fv3h91d1IIWjXh5glUre8rwqYDpZQ4T6jiIfwfJU0g/Tj80n58RsRd34JePpeitWEb8Sw2cpck82GAJeJiWNHy6VibB1Lo1StG6DFe6NjL1rjvE1JK6Lu/D48ITuSTKSrpgjqDl8RdPnJdxY4FFGHb91pDVpShecqELR0hMu9Bt82igRWIb5Sb66clhljD8qXUCgYEA+rjbYrQXsfy8ZtbIkTnfkP4G5ERdwuvug+QbGzvBFbXayePsjLhA33i+unNK+Pk2qHiEdMuzcV2ksMbYdAIQ/jbUb+jtZV9HP5yJ/bZ414wULP0BA3jwHBDd2bQxO54vSKaSvMJ/fw7UwLYPsRCFiwhUwN+zitraTvEJi/w9OtMCgYEA7396oZwccRR6oiAzEvf8fy75aaewWFNgVFn/BiHavjyb21VLhRdJQwj0VaqlPV/D2FbsLZ46Ae/kGrcVTbaoz1wUxQ6eKmN2oA3J1dwg+sn5nvgefLP5pCtTA7DCoSUxfJ+IYSSDwan5qsS0bdnTL+4PXO07/qg0322L5HXIdcsCgYEAzsPqcQDyVZ+HRAw3RcUDgZBs4I0dAeYOQoi4bgIeXyglMcAc0YQWQ/VQ3XS9TIxBrjgNjEB9UK2YZwzlbu5RU0Smd1ARjzs/B8+x4SE9kQz9iohv8IwpAAxM2QAIZhEzD2gHtVF1UbRKck7yq+RjLWCGfLU/XPDVfqq7Y812NW8CgYAXnku6qkmHwUxCtsgyo7AL3tcL21ShsT87slBbC3Wl8xYvsB6tdllsOfLWi+iVv97xc8kAyqzPyheFpu575nqJUHxf3owsg/iL2jBAXeAGu2pZigB/rcP9s6QRJhpbh+50asspQU+ZBqkvdQySFLwl6uUq9d5Hw9DLA+Oa2R62twKBgQDn48L33REd7YSsQP0O87RZZIx71RQWKA98GLW8bInHqOISmlc8P15D+FJfdpxBL0w1m4hPizPgbtB+NZsskHr2ilNkvlA24mATMy5/mlDFHTBtEasFjlYoIKlChyMBVdUzTo8KK3zwDBISu0i+97Py14afL18OPT+24etGNxuKjg==-----END RSA PRIVATE KEY-----"
+        },
+        "certificateDomain": {
+            "value": "artifactory"
+        },
+        "artifactoryServerName": {
+            "value": "artifactory"
+        },
+        "extraJavaOptions": {
+            "value": "-server -Xms2g -Xmx12g -Xss256k -XX:+UseG1GC -XX:OnOutOfMemoryError=\\\"kill -9 %p\\\""
+        },
+        "adminUsername": {
+            "value": "cfAdmin"
+        },
+        "adminPassword": {
+            "value": "Cloudfiled2020!"
+        },
+        "DB_Admin_User": {
+            "value": "cfAdmin"
+        },
+        "DB_Admin_Password": {
+            "value": "Cloudfiled2020!"
+        },
+        "DB_Name": {
+            "value": "cfcsasjfrogdb"
+        },
+        "DB_Edition": {
+            "value": "Basic"
+        }
+    }
+}

@@ -52,16 +52,14 @@
         "description": "Admin password on all VMs. Follow conventions for azure VM admin password rules."
       }
     },
-    "ubuntuOSVersion": {
+    "osVersion": {
       "type": "string",
-      "defaultValue": "16.04.0-LTS",
+      "defaultValue": "7.5",
       "allowedValues": [
-        "12.04.5-LTS",
-        "14.04.2-LTS",
-        "16.04.0-LTS"
+        "7.5"
       ],
       "metadata": {
-        "description": "The Ubuntu version for the VM."
+        "description": "The CentOS version for the VM."
       }
     },
     "artifactoryLicense1": {
@@ -237,9 +235,9 @@
     "artifactoryLicense4": "[parameters('artifactoryLicense4')]",
     "artifactoryLicense5": "[parameters('artifactoryLicense5')]",
     "osType": {
-      "publisher": "Canonical",
-      "offer": "UbuntuServer",
-      "sku": "[parameters('ubuntuOSVersion')]",
+      "publisher": "OpenLogic",
+      "offer": "CentOS",
+      "sku": "[parameters('osVersion')]",
       "version": "latest"
     },
     "apiVersion": "2015-06-15",
