@@ -748,11 +748,11 @@
                   "autoUpgradeMinorVersion": false,
                   "settings": {
                     "fileUris": [
-                      "[concat(parameters('_artifactsLocation'), 'scripts/','install_artifactory.sh')]"
+                      "[concat(parameters('_artifactsLocation'), 'scripts/','install_artifactory_centos.sh')]"
                     ]
                   },
                   "protectedSettings": {
-                    "commandToExecute": "sh install_artifactory.sh"
+                    "commandToExecute": "sh install_artifactory_centos.sh"
                   }
                 }
               }
@@ -839,11 +839,11 @@
                   "autoUpgradeMinorVersion": false,
                   "settings": {
                     "fileUris": [
-                      "[concat(parameters('_artifactsLocation'), 'scripts/','install_artifactory.sh')]"
+                      "[concat(parameters('_artifactsLocation'), 'scripts/','install_artifactory_centos.sh')]"
                     ]
                   },
                   "protectedSettings": {
-                    "commandToExecute": "sh install_artifactory.sh"
+                    "commandToExecute": "sh install_artifactory_centos.sh"
                   }
                 }
               }
